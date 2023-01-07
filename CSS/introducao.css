@@ -1,0 +1,81 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
+}
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 710px;
+  height: 130px;
+  background: url("/IMG/NDT2.svg") no-repeat center;
+  position: absolute;
+  top: -20px;
+  left: -50px;
+
+  z-index: -1;
+}
+
+@media (max-width: 1200px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 0px;
+  }
+
+  .introducao h1,
+  p {
+    text-align: center;
+  }
+  .introducao h1 {
+    font-size: 3.5rem;
+  }
+  .introducao h1::before {
+    width: 530px;
+    height: 120px;
+    top: -10px;
+    left: -30px;
+  }
+}
+@media (max-width: 820px) {
+  .titulo {
+    display: grid;
+    padding: 30px;
+    justify-items: center;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .introducao p {
+    text-align: left;
+  }
+  .introducao h1::before {
+    width: 300px;
+    height: 120px;
+    top: 0px;
+    left: -10px;
+  }
+
+  .pfoto {
+    display: none;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 0px;
+    max-width: 520px;
+  }
+}
