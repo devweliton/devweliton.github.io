@@ -16,7 +16,7 @@
 .introducao h1::before {
   content: "";
   display: block;
-  width: 710px;
+  width: auto;
   height: 130px;
   background: url("/IMG/NDT2.svg") no-repeat center;
   position: absolute;
