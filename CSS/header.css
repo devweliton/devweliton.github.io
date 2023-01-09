@@ -24,7 +24,7 @@
   .header {
     flex-direction: column;
     gap: 40px;
-    padding: 20px;
+    padding: 20px 0px;
   }
   .header-menu a {
     background: #f5f5f5;

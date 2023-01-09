@@ -125,6 +125,7 @@
   }
   .formacao-extra h3 {
     display: inline;
+    gap: 10px;
   }
   .formacao-extra h3::before {
     content: none;
@@ -140,6 +141,10 @@
   }
   .idiomas h3::after {
     background: url("/IMG/idioma.svg") no-repeat center center;
+  }
+  .formacao-container::after {
+    height: 80px;
+    bottom: -80px;
   }
 }
 @media (max-width: 480px) {

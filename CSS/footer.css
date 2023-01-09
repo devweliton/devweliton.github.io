@@ -23,15 +23,16 @@
   margin-bottom: 30px;
 }
 .footer-contato a {
-  color: rgb(10, 102, 204);
-}
-.footer-contato a::before {
-  content: "@";
   color: #ffffff;
 }
+.footer-contato a::before {
+  content: "Linkedin ";
+  color: rgb(10, 102, 204);
+}
+
 .footer-copy {
   grid-column: 1 / -1;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #8f8f8f;
 }
 @media (max-width: 800px) {
@@ -39,7 +40,15 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .footer-contato {
-    font-size: 1.5rem;
+  .footer-contato li {
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+  }
+  .footer-texto {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
   }
 }
