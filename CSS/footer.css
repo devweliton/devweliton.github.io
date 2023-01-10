@@ -11,11 +11,12 @@
   justify-items: center;
 }
 .footer-texto {
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.33;
   color: #cccccc;
 }
 .footer-contato li {
+  position: relative;
   font-weight: bold;
   font-size: 1.25rem;
   line-height: 1.1;
@@ -26,8 +27,34 @@
   color: #ffffff;
 }
 .footer-contato a::before {
-  content: "Linkedin ";
-  color: rgb(10, 102, 204);
+  content: "";
+  display: inline;
+  width: 40px;
+  height: 40px;
+  background: url("../IMG/linkedinicon.png") no-repeat center;
+  left: -50px;
+  top: -7px;
+  position: absolute;
+}
+.footer-contato .email::before {
+  content: "";
+  display: inline;
+  width: 40px;
+  height: 40px;
+  background: url("../IMG/gmailicon.png") no-repeat center;
+  left: -50px;
+  top: -7px;
+  position: absolute;
+}
+.footer-contato .wpp::before {
+  content: "";
+  display: inline;
+  width: 40px;
+  height: 40px;
+  background: url("../IMG/whatsappicone.png") no-repeat center;
+  left: -50px;
+  top: -7px;
+  position: absolute;
 }
 
 .footer-copy {

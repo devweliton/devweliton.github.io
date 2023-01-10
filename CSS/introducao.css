@@ -64,7 +64,7 @@ h1 {
     max-width: 250px;
   }
   .introducao .titulo h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     gap: 10px;
   }
   .introducao .titulo p {
@@ -73,7 +73,7 @@ h1 {
 }
 @media (max-width: 480px) {
   .introducao .titulo h1 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     gap: 10px;
   }
   .introducao .titulo p {
