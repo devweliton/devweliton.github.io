@@ -110,7 +110,7 @@
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .formacao-container {
     grid-template-columns: 1fr;
     gap: 40px;
