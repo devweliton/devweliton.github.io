@@ -1,5 +1,6 @@
 .introducao {
-  max-width: 1200px;
+  background: url(/IMG/fundo3.jpg) no-repeat center center;
+  /*  max-width: 1200px;*/
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -7,15 +8,12 @@
   gap: 100px;
   align-items: center;
   position: relative;
-}
-.introducao .fotofundo {
-  position: absolute;
-  display: inline-block;
+  justify-items: center;
 }
 .introducao .titulo p,
 h1 {
   position: relative;
-  color: #f5f5f5f5;
+  color: #ffffff;
   text-align: center;
 }
 .introducao .titulo p {
@@ -27,6 +25,14 @@ h1 {
   line-height: 1.125;
   margin-bottom: 30px;
 }
+.introducao h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+}
 
 @media (max-width: 1200px) {
   .introducao {
@@ -37,20 +43,13 @@ h1 {
     padding-right: 50px;
     top: 0px;
   }
-
-  .introducao h1,
-  p {
-    text-align: center;
-  }
-  .introducao h1 {
-    font-size: 3.5rem;
-  }
 }
+
 @media (max-width: 820px) {
   .introducao .titulo h1 {
-    font-size: 2.25rem;
+    font-size: 3rem;
     align-content: center;
-    gap: 10px;
+    margin-bottom: 10px;
   }
   .introducao .titulo p {
     font-size: 1rem;
@@ -64,19 +63,16 @@ h1 {
     max-width: 250px;
   }
   .introducao .titulo h1 {
-    font-size: 1.6rem;
+    font-size: 2.25rem;
     gap: 10px;
   }
   .introducao .titulo p {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
 }
 @media (max-width: 480px) {
   .introducao .titulo h1 {
     font-size: 1.5rem;
-    gap: 10px;
-  }
-  .introducao .titulo p {
-    font-size: 0.5rem;
+    gap: 5px;
   }
 }

@@ -1,13 +1,22 @@
 .footer {
   background: #000000;
 }
+.footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+}
 .footer-container {
   max-width: 1200px;
-  padding: 120px 20px 60px 20px;
+  padding: 50px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+  align-items: center;
   justify-items: center;
 }
 .footer-texto {
@@ -16,12 +25,14 @@
   color: #cccccc;
 }
 .footer-contato li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.1;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin: 15px 0px;
+  align-items: center;
 }
 .footer-contato a {
   color: #ffffff;
@@ -61,21 +72,31 @@
   grid-column: 1 / -1;
   font-size: 1rem;
   color: #8f8f8f;
+  text-align: center;
 }
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 40px 20px;
   }
   .footer-contato li {
     font-size: 0.85rem;
     margin-bottom: 20px;
   }
   .footer-texto {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1.8;
     letter-spacing: 0.5px;
     word-wrap: break-word;
     font-weight: 400;
+  }
+  .footer-contato .email::before {
+    width: 30px;
+    height: 30px;
+    top: -5;
+  }
+  .footer-copy {
+    font-size: 0.5rem;
   }
 }

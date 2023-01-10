@@ -12,15 +12,6 @@
   gap: 100px;
   position: relative;
 }
-.formacao-container::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 150px;
-  background: url("/IMG/NDT2.svg") repeat center;
-  position: absolute;
-  bottom: -150px;
-}
 .formacao .subtitulo {
   color: #000000;
   max-width: 5ch;
@@ -119,7 +110,7 @@
   .formacao .subtitulo {
     color: #ffffff;
   }
-  .formacao-texto {
+  .formacao-texto p {
     text-align: left;
     font-size: 1rem;
   }
