@@ -1,24 +1,24 @@
 body {
-  min-width: 360px;
+  display: grid;
+  padding: 0px 0px;
+  gap: 0px;
+  width: 100%;
   margin: 0px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   color: #141414;
+  justify-items: center;
 }
 h1,
 h2,
 h3,
-p {
+p,
+section {
   margin: 0px;
 }
 ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 a {
   text-decoration: none;
@@ -34,18 +34,19 @@ a {
 @media (max-width: 1200px) {
   .subtitulo {
     font-size: 5rem;
-    max-width: 6ch;
+    width: 6ch;
   }
 }
 @media (max-width: 800px) {
   .subtitulo {
-    font-size: 3rem;
-    text-transform: capitalize;
-    max-width: initial !important;
+    font-size: 3.5rem;
+    max-width: 1ch;
   }
 }
 @media (max-width: 600px) {
   .subtitulo {
     font-size: 2.25rem;
+    text-transform: capitalize;
+    width: 100%;
   }
 }
