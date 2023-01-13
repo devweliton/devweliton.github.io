@@ -1,16 +1,14 @@
 .introducao {
-  padding: 20px 0px;
   width: 100%;
+  display: flex;
+}
+.introducao-container {
   display: grid;
-  grid-template-columns: 1fr;
-  margin: auto auto 0px;
-  justify-content: center;
-  gap: 100px;
-  align-items: center;
   position: relative;
+  width: 100%;
 }
 .introducao-img {
-  display: block;
+  display: flex;
   position: absolute;
   width: 100%;
   height: 100%;
