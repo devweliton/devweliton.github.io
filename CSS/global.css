@@ -1,4 +1,16 @@
+:root {
+  --pfundo: #fff;
+  --dmletra1: #111;
+}
+
+@media (prefers-color-schene: dark) {
+  :root {
+    --pfundo: #111;
+    --dmletra1: #bbb;
+  }
+}
 body {
+  background: var(--pfundo);
   display: flex;
   flex-direction: column;
   padding: 0px 0px;
@@ -6,7 +18,7 @@ body {
   max-width: 100%;
   margin: 0;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  color: #141414;
+  color: var(--dmletra1);
   justify-items: center;
   align-items: center;
   align-content: space-around;
@@ -25,7 +37,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--dmletra1);
 }
 .subtitulo {
   font-size: 8rem;

@@ -32,6 +32,30 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  position: relative;
+} /*começo detalhe muito da hora.*/
+.header-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: yellowgreen;
+  margin-top: 4px;
+  transition: 0.4s;
+  position: absolute;
+}
+.header-menu a:hover::after {
+  width: 100%;
+}
+/*fim detalhe muito da hora*/
+
+.header-menu li {
+  padding: 6px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+.header-menu li:hover {
+  background: #f7f7f7;
 }
 @media (max-width: 900px) {
   .header-container {
@@ -40,11 +64,17 @@
     gap: 15px;
     justify-items: center;
   }
+  .header-menu li:hover {
+    background: #a5a5a5;
+  }
   .header-menu li {
     max-width: 100%;
     padding: 8px;
     background: #f5f5f5;
     border-radius: 4px;
+  }
+  .header-menu a:after {
+    display: none;
   }
 }
 

@@ -105,6 +105,11 @@
   background: #ffffff;
   padding: 5px 10px;
 }
+.empresa-habilidades li:hover {
+  border: 2px solid transparent;
+  background: #a5a5a5;
+}
+
 @media (max-width: 1200px) {
   .experiencia-all {
     gap: 40px;

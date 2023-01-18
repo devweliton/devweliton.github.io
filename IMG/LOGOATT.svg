@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Creator: CorelDRAW 2020 (64 Bit Versão de avaliação) -->
+
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1772px" height="2362px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 1772 2362.67"
  xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -54,7 +54,7 @@ viewBox="0 0 1772 2362.67"
     .str0 {stroke:black;stroke-width:83.35;stroke-miterlimit:22.9256}
     .str2 {stroke:black;stroke-width:0.9;stroke-miterlimit:22.9256}
     .fil0 {fill:none}
-    .fil1 {fill:black}
+    .fil1 {fill: black)}
     .fnt2 {font-weight:normal;font-size:133.36px;font-family:'Fira Sans'}
     .fnt0 {font-weight:normal;font-size:200.04px;font-family:'Impact'}
     .fnt1 {font-weight:normal;font-size:541.77px;font-family:'Cubic'}

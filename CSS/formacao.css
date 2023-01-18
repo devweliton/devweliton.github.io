@@ -118,6 +118,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+.faculdade:hover {
+  background: #3f3f3f;
+}
+
 @media (max-width: 1200px) {
   .formacao-container-all {
     gap: 40px;
